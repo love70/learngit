@@ -5,5 +5,6 @@ Git教程: https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b
 仓库中添加文件: git add xxx
                 git commit -m "提交说明
                 修改后提交也是同样的步骤
+                commit是一个快照，之后可恢复到这个commit
 常看仓库当前状态: git status
 查看不同: git diff xxx
