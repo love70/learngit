@@ -13,3 +13,5 @@ Git教程: https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b
 更改版本: git reset --hard HEAD^   (从当前版本向之前回退^ ^^ ~20)
           git reset --hard xxxx    (指定版本号)
 查看命令历史，也方便了解HEAD指针的变化: git reflog
+撤销工作区的全部修改: git checkout -- xxx   (回到最近一次commit或add时的状态，如果add又撤销了，就当没add过)
+撤销暂存区的修改: git reset HEAD xxx
