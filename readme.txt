@@ -26,3 +26,14 @@ Git教程: https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b
 关联远程仓库: git remote add origin git@server-name:path/repo-name.git
 第一次推送master分支所有内容: git push -u origin master
 之后本地提交: git push origin master
+
+克隆远程仓库: git clone git@server-name:path/repo-name.git (ssh或https)
+
+查看当前分支: git branch
+创建并切换到xxx分支: git checkout -b xxx
+等同于:
+创建分支: git branch xxx
+切换分支: git checkout xxx
+合并某分支到当前分支: git merge xxx
+删除分支: git branch -d xxx
+
